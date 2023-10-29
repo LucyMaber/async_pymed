@@ -9,14 +9,14 @@ def read(fname):
 
 
 setup(
-    name="pymed",
+    name="aiopymed",
     version=__version__,
     author="Gijs Wobben",
     author_email="gijswobben@gmail.com",
     description=("Python library for access to PubMed"),
     license="MIT",
     keywords="PubMed PMC",
-    url="https://github.com/gijswobben/pymed",
+    url="https://github.com/LucyMaber/async_pymed",
     packages=find_packages(),
     install_requires=["requests>=2.20.0"],
     tests_require=["pytest"],
